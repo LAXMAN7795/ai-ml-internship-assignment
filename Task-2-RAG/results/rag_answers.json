@@ -1,0 +1,201 @@
+[
+  {
+    "question_id": 1,
+    "question": "What is the main purpose of the NIST AI Risk Management Framework?",
+    "expected_passage": "AI risk management offers a path to minimize potential negative impacts of AI systems, such as threats to civil liberties and rights, while also providing opportunities to maximize positive impacts.",
+    "expected_page": 9,
+    "generated_answer": "The main purpose of the NIST AI Risk Management Framework is to provide guidance and tools for organizations to identify, assess, and manage risks associated with artificial intelligence (AI) technologies.",
+    "retrieved_pages": [
+      1,
+      2,
+      6,
+      8,
+      37
+    ]
+  },
+  {
+    "question_id": 2,
+    "question": "How does the AI RMF define risk?",
+    "expected_passage": "Risk refers to the composite measure of an event's probability of occurring and the magnitude or degree of the consequences of the corresponding event.",
+    "expected_page": 9,
+    "generated_answer": "The AI RMF defines risk as \"the composite measure of an event's probability of occurring and the magnitude or degree of the consequences of the corresponding event.\"",
+    "retrieved_pages": [
+      1,
+      9,
+      15,
+      47
+    ]
+  },
+  {
+    "question_id": 3,
+    "question": "What does risk tolerance mean in the context of AI risk management?",
+    "expected_passage": "Risk tolerance refers to the organization's or AI actor's readiness to bear the risk in order to achieve its objectives.",
+    "expected_page": 12,
+    "generated_answer": "risk tolerance means the organization's or AI actor's (see Appendix A) readiness to bear the risk in order to achieve its objectives.",
+    "retrieved_pages": [
+      9,
+      12,
+      13
+    ]
+  },
+  {
+    "question_id": 4,
+    "question": "What should organizations do when an AI system presents unacceptable negative risk levels?",
+    "expected_passage": "Development and deployment should cease in a safe manner until risks can be sufficiently managed.",
+    "expected_page": 13,
+    "generated_answer": "When an AI system presents unacceptable negative risk levels, organizations should take the following actions:\n1. Assess the risk level of the AI system.\n2. Prioritize the risk based on context.\n3. Develop mitigation measures.\n4. Implement risk management procedures.\n5. Regularly review and update risk management plans.\n6. Communicate the risks to stakeholders.\n7. Continuously monitor and evaluate the effectiveness of risk management measures.",
+    "retrieved_pages": [
+      6,
+      9,
+      10,
+      13
+    ]
+  },
+  {
+    "question_id": 5,
+    "question": "Why is organizational commitment important for effective AI risk management?",
+    "expected_passage": "Effective risk management is realized through organizational commitment at senior levels and may require cultural change within an organization or industry.",
+    "expected_page": 14,
+    "generated_answer": "Organizational commitment is crucial for effective AI risk management because it requires a broad set of perspectives and actors across the entire AI lifecycle. It involves representing a diverse range of experiences, expertise, and backgrounds among AI actors, ensuring that the AI RMF is used effectively by these actors. Additionally, it requires cultural change within an organization or industry, and small to medium-sized organizations may face unique challenges compared to larger organizations due to their capabilities and resources.",
+    "retrieved_pages": [
+      6,
+      10,
+      12,
+      14,
+      38
+    ]
+  },
+  {
+    "question_id": 6,
+    "question": "What characteristics does NIST identify as necessary for trustworthy AI systems?",
+    "expected_passage": "Characteristics of trustworthy AI systems include: valid and reliable, safe, secure and resilient, accountable and transparent, explainable and interpretable, privacy-enhanced, and fair with harmful bias managed.",
+    "expected_page": 17,
+    "generated_answer": "validity and reliability, safety, security and resilience, accountability and transparency, explainability and interpretability, privacy enhancement, fairness with harmful bias managed.",
+    "retrieved_pages": [
+      5,
+      17,
+      19
+    ]
+  },
+  {
+    "question_id": 7,
+    "question": "How should AI system accuracy be measured according to the framework?",
+    "expected_passage": "Accuracy measurements should always be paired with clearly defined and realistic test sets that are representative of conditions of expected use and details about test methodology.",
+    "expected_page": 19,
+    "generated_answer": "According to the framework, AI system accuracy should be measured by considering computational-centric measures such as false positive and false negative rates, human-AI teaming, and demonstrating external validity (generalizable beyond the training conditions).",
+    "retrieved_pages": [
+      18,
+      19,
+      33,
+      36
+    ]
+  },
+  {
+    "question_id": 8,
+    "question": "What practical approaches can organizations use to improve AI safety?",
+    "expected_passage": "Other practical approaches for AI safety often relate to rigorous simulation and in-domain testing, real-time monitoring, and the ability to shut down, modify, or have human intervention into systems that deviate from intended or expected functionality.",
+    "expected_page": 20,
+    "generated_answer": "a uniquely challenging technology to deploy and utilize both for organizations and within society. Without proper controls, AI systems can amplify, perpetuate, or exacerbate inequitable or undesirable outcomes for individuals and communities. With proper controls, AI systems can mitigate and manage inequitable outcomes.",
+    "retrieved_pages": [
+      6,
+      7,
+      10,
+      19,
+      20
+    ]
+  },
+  {
+    "question_id": 9,
+    "question": "What is the difference between transparency, explainability, and interpretability?",
+    "expected_passage": "Transparency can answer the question of what happened in the system. Explainability can answer the question of how a decision was made in the system. Interpretability can answer the question of why a decision was made by the system and its meaning or context to the user.",
+    "expected_page": 22,
+    "generated_answer": "Transparency allows access to appropriate levels of information based on the stage of the AI lifecycle and tailored to the role or knowledge of AI actors or individuals interacting with or using the AI system. Explainability enables the explanation of how a decision was made in the system, while interpretability answers the question of \"why\" a decision was made by the system and its meaning or context to the user.",
+    "retrieved_pages": [
+      17,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "question_id": 10,
+    "question": "What are the three major categories of AI bias identified by NIST?",
+    "expected_passage": "NIST has identified three major categories of AI bias to be considered and managed: systemic, computational and statistical, and human-cognitive.",
+    "expected_page": 23,
+    "generated_answer": "NIST AI 100-1 AI RMF 1.0 identifies three major categories of AI bias to be considered and managed:\n1. Systemic bias\n2. Computational bias\n3. Statistical bias",
+    "retrieved_pages": [
+      6,
+      23,
+      34,
+      45
+    ]
+  },
+  {
+    "question_id": 11,
+    "question": "What are the four functions of the AI RMF Core?",
+    "expected_passage": "The Core is composed of four functions: GOVERN, MAP, MEASURE, and MANAGE.",
+    "expected_page": 25,
+    "generated_answer": "The four functions of the AI RMF Core are:\nGOVERN, MAP, MEASURE, and MANAGE.",
+    "retrieved_pages": [
+      7,
+      8,
+      25,
+      26,
+      38
+    ]
+  },
+  {
+    "question_id": 12,
+    "question": "Why is the GOVERN function considered cross-cutting?",
+    "expected_passage": "GOVERN is a cross-cutting function that is infused throughout AI risk management and enables the other functions of the process.",
+    "expected_page": 27,
+    "generated_answer": "5.1 Govern The GOVERN function: • cultivates and implements a culture of risk management within organizations designing, developing, deploying, evaluating, or acquiring AI systems; • outlines processes, documents, and organizational schemes that anticipate, identify, and manage the risks a system can pose, including to users and others across society – and procedures to achieve those outcomes; • incorporates processes to assess potential impacts; • provides a structure by which AI risk management functions can align with organizational principles, policies, and strategic priorities; • connects technical aspects of AI system design and development to organizational values",
+    "retrieved_pages": [
+      5,
+      26,
+      27,
+      28,
+      29
+    ]
+  },
+  {
+    "question_id": 13,
+    "question": "What is the purpose of the MAP function?",
+    "expected_passage": "The MAP function is intended to enhance an organization's ability to identify risks and broader contributing factors.",
+    "expected_page": 30,
+    "generated_answer": "The purpose of the MAP function is to establish the context to frame risks related to an AI system.",
+    "retrieved_pages": [
+      29,
+      30,
+      32,
+      46
+    ]
+  },
+  {
+    "question_id": 14,
+    "question": "What does the MEASURE function involve?",
+    "expected_passage": "The MEASURE function employs quantitative, qualitative, or mixed-method tools, techniques, and methodologies to analyze, assess, benchmark, and monitor AI risk and related impacts.",
+    "expected_page": 33,
+    "generated_answer": "The MEASURE function involves employing quantitative, qualitative, or mixed-methods tools, techniques, and methodologies to analyze, assess, benchmark, and monitor AI risk and related impacts.",
+    "retrieved_pages": [
+      4,
+      26,
+      33,
+      34
+    ]
+  },
+  {
+    "question_id": 15,
+    "question": "What are the main responsibilities of the MANAGE function?",
+    "expected_passage": "The MANAGE function entails allocating risk resources to respond to, recover from, and communicate about AI risks.",
+    "expected_page": 37,
+    "generated_answer": "The MANAGE function has the following main responsibilities:\n• Strategies to maximize AI benefits and minimize negative impacts are planned, prepared, implemented, documented, and informed by input from relevant AI actors.\n• Resources required to manage AI risks are taken into account – along with viable non-AI alternative systems, approaches, or methods – to reduce the magnitude or likelihood of potential impacts.\n• Mechanisms are in place and applied to sustain the value of deployed AI systems.\n• Procedures are followed to respond to and recover from a previously unknown risk when it is identified.\n• Mechanisms are in place and applied, and respon- sibilities are assigned and understood, to supersede, disengage, or deactivate AI systems that demonstrate performance or outcomes inconsistent with intended use.",
+    "retrieved_pages": [
+      25,
+      26,
+      27,
+      28,
+      37
+    ]
+  }
+]

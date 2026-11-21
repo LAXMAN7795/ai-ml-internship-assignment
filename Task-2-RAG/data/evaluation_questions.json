@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "question": "What is the main purpose of the NIST AI Risk Management Framework?",
+    "gold_page": 9,
+    "gold_passage": "AI risk management offers a path to minimize potential negative impacts of AI systems, such as threats to civil liberties and rights, while also providing opportunities to maximize positive impacts."
+  },
+  {
+    "id": 2,
+    "question": "How does the AI RMF define risk?",
+    "gold_page": 9,
+    "gold_passage": "Risk refers to the composite measure of an event's probability of occurring and the magnitude or degree of the consequences of the corresponding event."
+  },
+  {
+    "id": 3,
+    "question": "What does risk tolerance mean in the context of AI risk management?",
+    "gold_page": 12,
+    "gold_passage": "Risk tolerance refers to the organization's or AI actor's readiness to bear the risk in order to achieve its objectives."
+  },
+  {
+    "id": 4,
+    "question": "What should organizations do when an AI system presents unacceptable negative risk levels?",
+    "gold_page": 13,
+    "gold_passage": "Development and deployment should cease in a safe manner until risks can be sufficiently managed."
+  },
+  {
+    "id": 5,
+    "question": "Why is organizational commitment important for effective AI risk management?",
+    "gold_page": 14,
+    "gold_passage": "Effective risk management is realized through organizational commitment at senior levels and may require cultural change within an organization or industry."
+  },
+  {
+    "id": 6,
+    "question": "What characteristics does NIST identify as necessary for trustworthy AI systems?",
+    "gold_page": 17,
+    "gold_passage": "Characteristics of trustworthy AI systems include: valid and reliable, safe, secure and resilient, accountable and transparent, explainable and interpretable, privacy-enhanced, and fair with harmful bias managed."
+  },
+  {
+    "id": 7,
+    "question": "How should AI system accuracy be measured according to the framework?",
+    "gold_page": 19,
+    "gold_passage": "Accuracy measurements should always be paired with clearly defined and realistic test sets that are representative of conditions of expected use and details about test methodology."
+  },
+  {
+    "id": 8,
+    "question": "What practical approaches can organizations use to improve AI safety?",
+    "gold_page": 20,
+    "gold_passage": "Other practical approaches for AI safety often relate to rigorous simulation and in-domain testing, real-time monitoring, and the ability to shut down, modify, or have human intervention into systems that deviate from intended or expected functionality."
+  },
+  {
+    "id": 9,
+    "question": "What is the difference between transparency, explainability, and interpretability?",
+    "gold_page": 22,
+    "gold_passage": "Transparency can answer the question of what happened in the system. Explainability can answer the question of how a decision was made in the system. Interpretability can answer the question of why a decision was made by the system and its meaning or context to the user."
+  },
+  {
+    "id": 10,
+    "question": "What are the three major categories of AI bias identified by NIST?",
+    "gold_page": 23,
+    "gold_passage": "NIST has identified three major categories of AI bias to be considered and managed: systemic, computational and statistical, and human-cognitive."
+  },
+  {
+    "id": 11,
+    "question": "What are the four functions of the AI RMF Core?",
+    "gold_page": 25,
+    "gold_passage": "The Core is composed of four functions: GOVERN, MAP, MEASURE, and MANAGE."
+  },
+  {
+    "id": 12,
+    "question": "Why is the GOVERN function considered cross-cutting?",
+    "gold_page": 27,
+    "gold_passage": "GOVERN is a cross-cutting function that is infused throughout AI risk management and enables the other functions of the process."
+  },
+  {
+    "id": 13,
+    "question": "What is the purpose of the MAP function?",
+    "gold_page": 30,
+    "gold_passage": "The MAP function is intended to enhance an organization's ability to identify risks and broader contributing factors."
+  },
+  {
+    "id": 14,
+    "question": "What does the MEASURE function involve?",
+    "gold_page": 33,
+    "gold_passage": "The MEASURE function employs quantitative, qualitative, or mixed-method tools, techniques, and methodologies to analyze, assess, benchmark, and monitor AI risk and related impacts."
+  },
+  {
+    "id": 15,
+    "question": "What are the main responsibilities of the MANAGE function?",
+    "gold_page": 37,
+    "gold_passage": "The MANAGE function entails allocating risk resources to respond to, recover from, and communicate about AI risks."
+  }
+]
