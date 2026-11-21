@@ -1,0 +1,21 @@
+{
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "gpu": "Tesla T4",
+    "fp16": {
+        "prompts": 10,
+        "total_output_tokens": 1280,
+        "total_generation_time_seconds": 39.89,
+        "overall_tokens_per_second": 32.09,
+        "peak_gpu_allocated_memory_gb": 2.89
+    },
+    "4bit_nf4": {
+        "prompts": 10,
+        "total_output_tokens": 1255,
+        "total_generation_time_seconds": 85.02,
+        "overall_tokens_per_second": 14.76,
+        "peak_gpu_allocated_memory_gb": 1.09,
+        "quantization": "NF4",
+        "double_quantization": true,
+        "compute_dtype": "float16"
+    }
+}
