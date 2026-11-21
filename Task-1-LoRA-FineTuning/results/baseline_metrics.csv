@@ -1,0 +1,2 @@
+model,accuracy,precision_macro,recall_macro,f1_macro
+Qwen2.5-0.5B-Instruct,0.5416666666666666,0.577411161557503,0.5416666666666666,0.5264705639681261

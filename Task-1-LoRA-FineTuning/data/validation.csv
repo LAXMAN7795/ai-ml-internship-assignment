@@ -1,0 +1,87 @@
+text,label,intent
+"I was charged for a cash withdrawal, why?",19,cash_withdrawal_charge
+The ATM won't let me take out cash,26,declined_cash_withdrawal
+"I withdrew money and got a fee, please explain",19,cash_withdrawal_charge
+I was unable to transfer money from my account.,35,failed_transfer
+"Hello, I tried to take out some money out of the ATM, but it's still showing that it's pending? I really don't want to be charged for this.",46,pending_cash_withdrawal
+Why can't I complete my transfer?,35,failed_transfer
+My card is stuck inside the ATM.,18,card_swallowed
+I tried to get funds in hard cash but it was rejected!,26,declined_cash_withdrawal
+Did  my transfer fail?,35,failed_transfer
+How can I get my card out of the stupid ATM that ate it?,18,card_swallowed
+Why did the transfer fail when I attempted to do it earlier?,35,failed_transfer
+Where did my money go? I'm not able to withdraw it from my ATM.,26,declined_cash_withdrawal
+Why are fees charged for cash withdrawals? I went to withdraw some money earlier today after shopping. There's a new fee that there.,19,cash_withdrawal_charge
+What do I do now my credit card has been swallowed by the ATM?,18,card_swallowed
+Why did you charge me for taking out cash?,19,cash_withdrawal_charge
+My card is stuck in the ATM?,18,card_swallowed
+Why was I declined when I tried to get my money?,26,declined_cash_withdrawal
+"When I used one of the ATMs in the city centre today, I tried to take out some money, but for whatever reason, the machine declined my card. Just checked it out in my account and that amount is still showing as pending! Is there any way that you can cancel this transaction, because I did not receive any money whatsoever from the ATM",46,pending_cash_withdrawal
+Why do I see extra charges for withdrawing my money?,19,cash_withdrawal_charge
+I don't recognize this withdrawal on my statement,20,cash_withdrawal_not_recognised
+"I want to get some cash from the ATM using my card but I dont want to be charged any fees. Ive taken some money out before with no fees, but recently Ive been getting charged. Why?",19,cash_withdrawal_charge
+Can you tell me what the cash withdrawal is in my statement?,20,cash_withdrawal_not_recognised
+Why have I been charged a fee for cash withdrawal?,19,cash_withdrawal_charge
+Somebody stole my wallet and is using my card! Can you do something so they can't keep taking my money?,20,cash_withdrawal_not_recognised
+WHY IS THERE AN EXTRA FEE FOR USING THE ATM??!!!,19,cash_withdrawal_charge
+There is random cash in my account.,20,cash_withdrawal_not_recognised
+An ATM machine didn't give me back my card.,18,card_swallowed
+I am unsuccessfully trying to make a transfer can you help?,35,failed_transfer
+what is my monthly spending limit because i was refused my money at an atm,26,declined_cash_withdrawal
+I withdrew cash but it still shows as pending?,46,pending_cash_withdrawal
+I was declined when I tried to withdraw cash!,26,declined_cash_withdrawal
+"Someone has a copy of my card. I have my card with me, but someone just made a 500£ cash withdrawal. Help me.",20,cash_withdrawal_not_recognised
+I took out money from the ATM and it's still showing as pending?,46,pending_cash_withdrawal
+I'm concerned because my cash withdrawal is pending.,46,pending_cash_withdrawal
+Why is my withdrawal from the ATM still showing as pending?,46,pending_cash_withdrawal
+I would like to know why a withdraw I made for some cash shows up as pending.,46,pending_cash_withdrawal
+why do i have a failed transfer,35,failed_transfer
+Transfer has failed.,35,failed_transfer
+I could not access my money at the ATM,26,declined_cash_withdrawal
+I have tried using my card for the first time at the ATM of Notting Hill to withdrawal cash but it didn't work. Does this mean my card isn't working?,26,declined_cash_withdrawal
+There is a withdrawal in my account I didn't make.,20,cash_withdrawal_not_recognised
+My card shows a cash withdrawal I don't recognize.,20,cash_withdrawal_not_recognised
+"I tried to withdraw some funds from my card, but was declined. How can I get my money?",26,declined_cash_withdrawal
+i tried to withdraw money but was told i didn't have funds,26,declined_cash_withdrawal
+My cash withdrawal isnt showing on my account,46,pending_cash_withdrawal
+Is there something wrong with my ATM Card?  Tried using it earlier and it did not work.,26,declined_cash_withdrawal
+I made a cash withdrawal earlier and it's showing as pending.  What does that mean?,46,pending_cash_withdrawal
+I'm trying to make a bank transfer but It's not going through. Could there not be enough funds to transfer or something? Have I done it too many times?,35,failed_transfer
+My app says I withdraw money from my account from an ATM.,20,cash_withdrawal_not_recognised
+Can you tell me why I was charged extra when I withdrew money?,19,cash_withdrawal_charge
+Why can't I take cash out of the ATM?,26,declined_cash_withdrawal
+Why have I all of a sudden been charged for my ATM withdrawal? I thought the withdrawals were free because this is the first time I've ever had this problem.,19,cash_withdrawal_charge
+"Hello. I have a transaction in my account listed as pending. I tried to use an ATM at the city centre, but the machine declined my card, and I did not receive the money. Why is the transaction still pending if I did not receive the money.",46,pending_cash_withdrawal
+My transfer failed to process correctly. Is there a reason this would happen?,35,failed_transfer
+Is there a problem with my account? When I tried to withdraw cash at an ATM I was denied.,26,declined_cash_withdrawal
+"When I withdrew my money, why was there an extra charge?",19,cash_withdrawal_charge
+Cash I did not get showed up in my account,20,cash_withdrawal_not_recognised
+why has a cash withdrawal charged me?,19,cash_withdrawal_charge
+is the a reason why my transfer has failed?,35,failed_transfer
+There's an unauthorized cash withdraw,20,cash_withdrawal_not_recognised
+What is your policy on withdrawing cash from an ATM? There is a fee on my account that wasn't there before I paid for my groceries.,19,cash_withdrawal_charge
+I was denied cash at an ATM,26,declined_cash_withdrawal
+Looking at my account I've noticed a charge that appears to still be in progress. I had attempted to get money out of the machine earlier but the machine seemed to have been broken. I never received my money so will you please look into this for me? I don't want to be charged for money I never actually received.,46,pending_cash_withdrawal
+The app says I made a cash withdrawal even though I didn't.,20,cash_withdrawal_not_recognised
+THere is some cash that is showing up on my app.,20,cash_withdrawal_not_recognised
+Is the fee with my cash withdrawal a mistake?,19,cash_withdrawal_charge
+I think somebody made an unauthorized copy of my card.  My account has a cash withdrawal for 500£ that I did not make.  Please help.,20,cash_withdrawal_not_recognised
+"Why does the ATM continually decline my card? I've tried multiple times on different machines with the same results. I thought I had enough funds for this, so please help me understand why this is happening.",26,declined_cash_withdrawal
+I'm getting an error when trying to make a payment. I want to purchase a flat but my mortgage payment needs to go through. Can you help me?,35,failed_transfer
+What is this cash withdrawal on my statement?,20,cash_withdrawal_not_recognised
+I needed cash from the ATM but I couldn't get it.,26,declined_cash_withdrawal
+How long before I can see that my cash withdrawal has taken place?,46,pending_cash_withdrawal
+Can you please explain why my transfer failed?,35,failed_transfer
+"Hi there, I've tried to make a transfer 5 different times and its not working. Is your system down or something?",35,failed_transfer
+I'm not able to withdraw money from the ATM but I'm not sure why.,26,declined_cash_withdrawal
+"Someone withdrew money from my account, and it wasn't me.",20,cash_withdrawal_not_recognised
+"Some cash was withdrawn in the app, but I did not do it.",20,cash_withdrawal_not_recognised
+"I just saw a charge for a cash withdrawal that I made! ATM withdrawals have always been free in the past, so why is there suddenly a charge? What is it going to cost me now?",19,cash_withdrawal_charge
+lost my card in atm,18,card_swallowed
+Why does a cash withdrawal show as pending?,46,pending_cash_withdrawal
+"Hi, I have been transferring money to my friends since morning, but all my transactions were getting failed. Can you please look into this issue.",35,failed_transfer
+Are there ATM fees?,19,cash_withdrawal_charge
+Why am I being charged for getting cash?,19,cash_withdrawal_charge
+"How do I get money from an ATM using my card? I can't seem to get it to work? I used the pin I had, but maybe it's wrong? What do I need to do to fix this?",26,declined_cash_withdrawal
+"I got cash from an ATM earlier but it shows up as pending in the app. How can this still be pending, I already received the cash?",46,pending_cash_withdrawal
+Tell me why there is a charge on my cash withdrawl.,19,cash_withdrawal_charge

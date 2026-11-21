@@ -1,0 +1,20 @@
+[
+    {
+        "failure": 1,
+        "reason": "Ambiguous withdrawal accounting/status wording",
+        "actual_intent": "pending_cash_withdrawal",
+        "predicted_intent": "cash_withdrawal_not_recognised"
+    },
+    {
+        "failure": 2,
+        "reason": "Conflicting signals: declined withdrawal and account charged",
+        "actual_intent": "pending_cash_withdrawal",
+        "predicted_intent": "declined_cash_withdrawal"
+    },
+    {
+        "failure": 3,
+        "reason": "Ambiguous withdrawal failure confused with transfer failure",
+        "actual_intent": "declined_cash_withdrawal",
+        "predicted_intent": "failed_transfer"
+    }
+]

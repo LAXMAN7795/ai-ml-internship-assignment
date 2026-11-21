@@ -1,0 +1,13 @@
+
+torch
+transformers==5.22.1
+peft
+datasets
+accelerate
+pandas
+numpy
+scikit-learn
+tqdm
+safetensors
+huggingface-hub
+tokenizers

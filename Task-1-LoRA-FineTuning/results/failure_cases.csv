@@ -1,0 +1,14 @@
+customer_message,actual_intent,predicted_intent
+Where's accounting for my cash withdrawal?,pending_cash_withdrawal,cash_withdrawal_not_recognised
+My account was charged for a withdraw I tried to make that was decline.,pending_cash_withdrawal,declined_cash_withdrawal
+I want to know why I have been unable to withdrawn funds.,declined_cash_withdrawal,failed_transfer
+Why did the ATM machine fail to give me a cash withdrawal?,declined_cash_withdrawal,failed_transfer
+My ATM transaction was unsuccessful.,declined_cash_withdrawal,failed_transfer
+My ATM got stuck and I'm not sure what to do.,card_swallowed,pending_cash_withdrawal
+The ATM at Metro bank on High St. Kensington didn't return my card. What should I do now that the bank is closed?,card_swallowed,declined_cash_withdrawal
+WTF??? I tried to withdraw some money at a Metro bank on High St. Kensington and without any notice it disappeared in the machine. The bank was already closed so I couldn't do anything. How do I get it back?,card_swallowed,declined_cash_withdrawal
+I'm unsure of a withdrawl in my statement.,cash_withdrawal_not_recognised,pending_cash_withdrawal
+I need to cancel my card that got stolen a little while ago. Someone has already taken some money out and I don't want them to take anymore. Can you please do that?,cash_withdrawal_not_recognised,card_swallowed
+How do I cancel my card? There are charges on my account that I didn't make.,cash_withdrawal_not_recognised,cash_withdrawal_charge
+"There is an error, the app says I made an ATM withdrawal and I didn't.",cash_withdrawal_not_recognised,declined_cash_withdrawal
+There is a cash withdrawal transaction that I am unsure of.,cash_withdrawal_not_recognised,pending_cash_withdrawal
