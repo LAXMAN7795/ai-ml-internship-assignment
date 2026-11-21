@@ -2,17 +2,17 @@
 
 A collection of three practical AI/ML projects covering **LoRA fine-tuning, Retrieval-Augmented Generation (RAG), and local Large Language Model (LLM) inference with quantization**.
 
-The projects demonstrate hands-on experience with small language models, NLP, embeddings, vector retrieval, model evaluation, GPU memory optimization, and inference benchmarking.
+These projects demonstrate hands-on experience with small language models, NLP, embeddings, vector retrieval, model evaluation, GPU memory optimization, and inference benchmarking.
 
 ---
 
 ## Projects Overview
 
-| Task | Project | Main Objective | Status |
+| Task | Project | Main Objective | Project Link |
 |---|---|---|---|
-| 1 | LoRA Fine-Tuning | Fine-tune a small LLM for banking intent classification | Completed |
-| 2 | RAG From Scratch | Build and evaluate a RAG pipeline without LangChain or LlamaIndex | Completed |
-| 3 | Local LLM Inference | Compare FP16 and 4-bit quantization performance | Experiments completed |
+| 1 | LoRA Fine-Tuning | Fine-tune a small LLM for banking intent classification | [View Task 1](https://github.com/LAXMAN7795/ai-ml-internship-assignment/tree/main/Task-1-LoRA-FineTuning) |
+| 2 | RAG From Scratch | Build and evaluate a RAG pipeline without LangChain or LlamaIndex | [View Task 2](https://github.com/LAXMAN7795/ai-ml-internship-assignment/tree/main/Task-2-RAG) |
+| 3 | Local LLM Inference | Compare FP16 and 4-bit quantization performance | [View Task 3](https://github.com/LAXMAN7795/ai-ml-internship-assignment/tree/main/Task-3-Local-LLM) |
 
 ---
 
@@ -89,7 +89,7 @@ The test set contained 40 examples per class and was held out for final evaluati
 
 **Conclusion:** Parameter-efficient fine-tuning substantially improved classification performance on the selected banking intent dataset.
 
-[View Task 1 – LoRA Fine-Tuning](./Task1-LoRA-Fine-Tuning/)
+[**Explore Task 1 – LoRA Fine-Tuning →**](https://github.com/LAXMAN7795/ai-ml-internship-assignment/tree/main/Task-1-LoRA-FineTuning)
 
 ---
 
@@ -191,7 +191,7 @@ The model produced useful answers for several questions but sometimes generated 
 
 This demonstrated that successful retrieval does not automatically guarantee faithful answer generation.
 
-[View Task 2 – RAG From Scratch](./Task2-RAG-From-Scratch/)
+[**Explore Task 2 – RAG From Scratch →**](https://github.com/LAXMAN7795/ai-ml-internship-assignment/tree/main/Task-2-RAG)
 
 ---
 
@@ -319,7 +319,7 @@ The following is a proposed deployment approach, not a measured load-test result
 
 Actual capacity depends on model size, sequence lengths, KV cache requirements, batching, and GPU performance. A concurrent load test is required to validate 20-user capacity.
 
-[View Task 3 – Local LLM Inference](./Task3-Local-LLM-Inference/)
+[**Explore Task 3 – Local LLM Inference →**](https://github.com/LAXMAN7795/ai-ml-internship-assignment/tree/main/Task-3-Local-LLM)
 
 ---
 
@@ -328,20 +328,20 @@ Actual capacity depends on model size, sequence lengths, KV cache requirements, 
 ```text
 ai-ml-internship-assignment/
 │
-├── Task1-LoRA-Fine-Tuning/
+├── Task-1-LoRA-FineTuning/
 │   ├── data/
 │   ├── results/
 │   ├── notebooks/
 │   └── README.md
 │
-├── Task2-RAG-From-Scratch/
+├── Task-2-RAG/
 │   ├── data/
 │   │   └── documents/
 │   ├── results/
 │   ├── notebooks/
 │   └── README.md
 │
-├── Task3-Local-LLM-Inference/
+├── Task-3-Local-LLM/
 │   ├── results/
 │   │   ├── prompt_comparison.csv
 │   │   ├── prompt_comparison.json
